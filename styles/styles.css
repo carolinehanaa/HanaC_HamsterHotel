@@ -1,0 +1,386 @@
+.container-fluid{
+    overflow: hidden;
+    padding: 0px;
+    /* max-width: 60rem; */
+    margin: 0 auto;
+}
+
+/* nav */
+.nav{
+    background-color: #000324;
+    align-items: flex-end;
+    min-height: 120px;
+    overflow: hidden;
+    padding: 0px;
+}
+
+.nav-link{
+    color:white;
+    font-family: 'Dosis', sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.nav-item{
+    display: flex;
+    justify-content: center;
+}
+
+.imglogo{
+    min-width: 143px;
+    min-height: 100px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+/* header */
+.poolimg{
+    background-image: url(../assets/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    min-height: 500px; 
+}
+
+.box{
+    max-width: 945px;
+    max-height: 232px;
+    background-color: #000324;
+    display: flex;
+    justify-content: center;
+    margin-top: 125px;
+    opacity: 0.80;
+    padding: 0%;
+}
+
+.headertxt1{
+    display: flex;
+    align-content: center;
+    text-align: center;
+    color: white;
+    font: normal normal normal 45px/57px Dosis;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.headertxt2{
+    display: flex;
+    align-content: center;
+    text-align: center;
+    color: white;
+    font: normal normal normal 16px/20px Source Sans Pro;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+/* award info */
+.row{
+    --bs-gutter-x: 0rem;
+}
+
+.homeimg{
+    min-width: 369px;
+    min-height: 416px;
+}
+
+.row2{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    max-height: 616px;
+    /* width: 100vw; */
+}
+
+.box2{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    justify-self: center;
+    min-height: 426px;
+    max-width: 1162.5px;
+    margin-top: 20px;
+}
+
+.col-5{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    max-width: 369px;
+    max-height: 416px;
+    margin-right: 50px;
+}
+
+.col-7{
+    display:flex;
+    justify-content: center;
+}
+
+.box2-body{
+    display: flex;
+    max-width: 753px;
+    max-height: 155px;
+    padding-top: 22px;
+}
+
+.awards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 22px;
+}
+
+.col-4{
+    display: flex;
+    justify-content: center;
+}
+
+.title{
+    font: normal normal normal 35px/44px Dosis;
+}
+
+.info1{
+    font: normal normal normal 16px/20px Source Sans Pro;
+    font-size: 16px;
+}
+
+/* rooms */
+.bgrooms{
+    background-image: url(../assets/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    min-height: 738px; 
+}
+
+.roomheader{
+    display: flex;
+    justify-content: center;
+    font: normal normal normal 35px/44px Dosis;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card{
+    border: none;
+    border-radius: 0%;
+}
+
+.btnspace{
+    margin-top: 78px;
+}
+
+.btn{
+    border-radius: 0% ;
+    font: normal normal bold 20px/25px Source Sans Pro;
+}
+
+
+.cardPos{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 70px;
+}
+
+.t{
+    text-align: center;
+    color: white;
+}
+
+.header2{
+    font: normal normal bold 16px/20px Source Sans Pro;
+}
+
+.card-title{
+    font: normal normal normal 25px/32px Dosis;
+}
+
+.bodytext{
+    font: normal normal normal 16px/20px Source Sans Pro;
+    margin-top: 10px;
+}
+
+/* packages */
+.packageshead{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font: normal normal normal 35px/44px Dosis;
+}
+
+.box3{
+    display: flex;
+    justify-content: center;
+    max-width: 1000px;
+    min-height: 230px;
+    padding-top: 22px;
+}
+
+.packimg1{
+    min-width: 561px;
+    max-height: 234px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-right: 50px;
+}
+
+.packhead2{
+    font: normal normal normal 25px/32px Dosis;
+}
+
+.price{
+    font: normal normal normal 16px/20px Source Sans Pro;
+    color: #1F51A8;
+}
+
+.packbody{
+    margin-bottom: 80px;
+    font: normal normal normal 16px/20px Source Sans Pro;
+}
+
+.packimg2{
+    min-width: 561px;
+    max-height: 234px;
+    display: flex;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+.packtext2{
+    text-align: left;
+    margin-right: 20px;
+}
+
+.packimg3{
+    min-width: 561px;
+    max-height: 234px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-right: 90px;
+}
+
+.packtext3{
+    margin-top: 20px;
+}
+
+/* amenities */
+
+.bgameneties{
+    background-image: url(../assets/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* display: flex;
+    justify-content: center; */
+    min-height: 548px;
+    margin-top: 80px;
+}
+
+.ameneties-header{
+    font: normal normal normal 35px/44px Dosis;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+/* .ameneties{
+    display: flex;
+    justify-content: space-evenly;
+} */
+
+.ameneties-body{
+    font: normal normal normal 16px/20px Source Sans Pro;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.ameneties-icons{
+    max-width: 150px;
+    max-height: 104px;
+    margin-top: 50px;
+}
+
+.icons-text{
+    font: normal normal bold 20px/25px Source Sans Pro;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* reserve */
+
+.reserve-rooms{
+    display:flex;
+    justify-content: center;
+}
+
+.box4{
+    margin-top: 101px;
+    max-width: 1137px;
+    min-height: 207px;
+    background-color: #000324;
+}
+
+.reserve-img{
+    max-width: 1137px;
+    max-height: 414px;
+    margin-bottom: 101px;
+}
+
+.reserve-title{
+    font: normal normal normal 35px/44px Dosis;
+    color:white;
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.reserve-input{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.reserve-btn{
+    display: flex;
+    justify-content: baseline;
+    margin-top: 32px;
+}
+
+.reserve-text{
+    font: normal normal normal 16px/20px Source Sans Pro;
+    color: white;
+}
+
+/* footer */
+
+.darkblue{
+    background-color: #000324;
+    max-height: 300px;
+}
+
+.imglogofooter{
+    margin-top: 20px;
+    max-width: 143px;
+    max-height: 100px;
+}
+
+.contact-info{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color:#E5FEFF;
+    font: normal normal normal 16px/20px Source Sans Pro;
+}
